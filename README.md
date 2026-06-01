@@ -1,53 +1,107 @@
-# Welcome to your Expo app 👋
+# 🚧 Travel Partner App — Building Stage
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Project Status
 
-## Get started
+This project is currently under active development.
 
-1. Install dependencies
+**Travel Partner** is a platform designed to help travelers find compatible travel companions, plan trips together, share itineraries, and connect with like-minded explorers.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Planned Features
 
-   ```bash
-   npx expo start
-   ```
+### 👤 User Authentication
+- Sign up and login
+- Google authentication
+- Secure account management
 
-In the output, you'll find options to open the app in a
+### 🌍 Travel Profiles
+- Create personalized travel profiles
+- Add travel interests and preferences
+- Upload profile pictures
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🤝 Travel Partner Matching
+- Find travelers with similar interests
+- Match based on destination, budget, and travel style
+- Send and receive travel requests
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🗺️ Trip Planning
+- Create travel plans
+- Share itineraries
+- Collaborate with travel partners
 
-## Get a fresh project
+### 💬 Real-Time Chat
+- One-to-one messaging
+- Trip discussion rooms
+- Instant notifications
 
-When you're ready, run:
+### 📍 Destination Discovery
+- Explore popular destinations
+- Travel recommendations
+- Trip inspiration
 
-```bash
-npm run reset-project
-```
+### ⭐ Reviews & Ratings
+- Rate travel partners
+- Build trust within the community
+- User feedback system
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 🛠️ Tech Stack
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Frontend
+- React / Next.js
+- Tailwind CSS
+- TypeScript
 
-## Learn more
+### Backend
+- Node.js
+- Express.js
 
-To learn more about developing your project with Expo, look at the following resources:
+### Database
+- MongoDB
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Authentication
+- Firebase Auth / NextAuth
 
+### Deployment
+- Vercel
+- Render
+
+---
+
+## 📅 Current Development Progress
+
+- [x] Project Setup
+- [x] UI Design Planning
+- [ ] Authentication System
+- [ ] User Profiles
+- [ ] Travel Matching Algorithm
+- [ ] Chat Integration
+- [ ] Trip Planner
+- [ ] Notifications
+- [ ] Testing
+- [ ] Deployment
+
+---
+
+## 🎯 Vision
+
+Traveling is more enjoyable when shared with the right people. Travel Partner aims to make finding trusted travel companions simple, safe, and enjoyable for everyone.
+
+---
+
+## 🤝 Contributions
+
+The project is currently in the building stage. Feedback, feature suggestions, and contributions are welcome.
+
+---
+
+## ⚠️ Note
+
+This application is under development and some features may be incomplete, unstable, or subject to change.
+
+Stay tuned for updates! 🚀🌍✈️
 ## Join the community
 
 Join our community of developers creating universal apps.
