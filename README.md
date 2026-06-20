@@ -2,7 +2,57 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## AI RAG Travel Partner
+
+A full-stack AI-powered travel planning application.
+
+## Project Structure
+
+```
+Travel_partner/
+├── backend/          → Next.js API server (port 3001)
+│   ├── src/app/api/  → API routes: /trips, /chat, /recommendations
+│   ├── src/lib/      → Groq, Gemini, Qdrant, Prisma
+│   └── prisma/       → PostgreSQL schema
+│
+├── web-frontend/     → Next.js web dashboard (port 3000)
+│   └── src/app/      → UI pages calling backend API
+│
+└── phone-frontend/   → Expo React Native mobile app
+    ├── src/app/      → Screens: Home, Partner, Backpack, Settings
+    └── src/lib/api.ts→ API client pointing to backend
+```
+
+## Running the project
+
+### 1. Backend (required first)
+```bash
+cd backend
+cp .env.example .env.local   # fill in your API keys
+npm install
+npm run dev                   # runs on http://localhost:3001
+```
+
+### 2. Web Frontend
+```bash
+cd web-frontend
+cp .env.example .env.local
+npm install
+npm run dev                   # runs on http://localhost:3000
+```
+
+### 3. Phone (React Native)
+```bash
+cd phone-frontend
+cp .env.example .env.local
+npm install
+npm run android               # or: npm run ios
+```
+
+## Tech Stack
+- **Backend:** Next.js API Routes, Groq (chat), Gemini (itinerary), Qdrant (RAG), PostgreSQL + Prisma
+- **Web Frontend:** Next.js, Tailwind CSS
+- **Phone:** Expo React Native
 
 1. Install dependencies
 
